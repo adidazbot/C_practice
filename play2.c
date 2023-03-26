@@ -8,9 +8,9 @@ int main(void)
 	u = &n;
        	// remember that " & " is use to point the address of a variable and we already declare varibale u as a pointer 
 
-	printf(" the value of the 'p' is : %p", u);// this prints the value of P
+	printf(" the value of the 'p' is : %p\n", u);// this prints the value of P
 	// while 
-	printf(" the address of the address of 'n' is : %p", &n);// this will print the address of n 
+	printf(" the address of the address of 'n' is : %p\n", &n);// this will print the address of n 
 	return (0);
 
 
