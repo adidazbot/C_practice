@@ -3,16 +3,22 @@ int main(void)
 {
 	int n;
 	int *u;
+	int m;
+	int *ptr;
 
 	n = 98;
+	m = 500;
 	u = &n;
+	ptr = &m;
        	// remember that " & " is use to point the address of a variable and we already declare varibale u as a pointer 
 
 	printf(" the value of the 'p' is : %p\n", u);// this prints the value of P
 	// while 
 	printf(" the address of the address of 'n' is : %p\n", &n);// this will print the address of n 
 	*u = 300;
-	printf(" value of n is: %d\n", n); 
+	printf(" value of n is: %d\n", n);
+       	*ptr = 700;
+	printf(" the value of m is : %d\n", m);	
 	return (0);
 
 
